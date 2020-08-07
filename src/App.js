@@ -48,15 +48,17 @@ function App() {
 
         {/* MAIN CONTENT */}
         <div className="mainContentWrapper">
-          <Container>
-            <video
-              autoPlay={true}
-              loop={true}
-              className="MVCVideo"
-              src={`https://d1l9wtg77iuzz5.cloudfront.net/assets/5637/236873/original.mp4?1530551954`}
-              alt="MVC Video"
-            ></video>
-          </Container>
+          <div className="videoWrapper">
+            <Row>
+              <video
+                autoPlay={true}
+                loop={true}
+                className="MVCVideo"
+                src={`https://d1l9wtg77iuzz5.cloudfront.net/assets/5637/236873/original.mp4?1530551954`}
+                alt="MVC Video"
+              ></video>
+            </Row>
+          </div>
         </div>
         {/* MAIN CONTENT */}
       </div>

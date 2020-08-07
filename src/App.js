@@ -5,9 +5,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="header">
-        <img className="MVCHeaderLogo" src={Logo} alt="MVC Logo" />
-      </div>
+      <div className="header"></div>
     </>
   );
 }

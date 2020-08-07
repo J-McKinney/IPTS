@@ -1,53 +1,42 @@
-/* Header Styling */
 .headerWrapper {
-  width: 100%;
-  height: auto;
   background-color: black;
+  width: 100%;
 }
 
 .headerContainer {
   width: 100%;
-  height: auto;
 }
 
 .headerRow {
   width: 100%;
-  height: auto;
 }
 
-/* Columns inside headerRow */
+#headerMVCLogoCol {
+  text-align: start;
+}
+
 .headerMVCLogo {
-  /* background-color: pink; */
-}
-
-.headerImgMVCLogo {
-  /* Image Tag inside headerMVCLogo */
   height: 60px;
   width: auto;
-  text-align: start;
-  margin: 0 0 0 35px;
+  margin: 0 0 0 45px;
 }
 
-.headerPhoneNumber {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #20a5a2;
-  text-align: end;
+#nestedRow {
+  display: flex;
+  justify-content: space-around;
 }
 
-.headerLocationInfo {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+#headerMVCPhoneNumber,
+#headerMVCLocationInfo,
+#headerMVCContactInfo,
+#headerMVCMenu {
+  margin: 15px 0 0 0;
   color: #20a5a2;
-  text-align: end;
+  text-align: center;
 }
 
-.headerContactInfo {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #20a5a2;
-  text-align: end;
-}
+.menuBarIcon {}
 
-.headerMenuOptions {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #20a5a2;
-  text-align: end;
-}
+.bar1,
+.bar2,
+.bar3 {}

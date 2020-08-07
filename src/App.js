@@ -8,6 +8,7 @@ import "./App.css";
 function App() {
   return (
     <>
+      {/* HEADER */}
       <div className="headerWrapper">
         <Container fluid className="headerContainer">
           <Row className="headerRow">
@@ -20,24 +21,33 @@ function App() {
                   <h5>(404) 919-5150</h5>
                 </div>
                 <div id="headerMVCLocationInfo" className="col-md-3">
-                  <h5>Location</h5>
+                  <h5>LOCATION</h5>
                 </div>
                 <div id="headerMVCContactInfo" className="col-md-3">
-                  <h5>Contact</h5>
+                  <h5>CONTACT</h5>
                 </div>
                 <div id="headerMVCMenu" className="col-md-3">
-                  <div className="menuBarIcon">
-                    <div className="bar1" />
-                    <div className="bar2" />
-                    <div className="bar3" />
-                  </div>
-                  <h5>Menu</h5>
+                  <Row className="nestedMenuRow">
+                    <div id="menuBarIcon" className="col-md-3">
+                      <div className="bar1" />
+                      <div className="bar2" />
+                      <div className="bar3" />
+                    </div>
+                    <div className="col-md-9">
+                      <h5 className="headerh5Menu">MENU</h5>
+                    </div>
+                  </Row>
                 </div>
               </Row>
             </div>
           </Row>
         </Container>
       </div>
+      {/* HEADER */}
+
+      {/* MAIN CONTENT */}
+      <div className="bodyWrapper"></div>
+      {/* MAIN CONTENT */}
     </>
   );
 }

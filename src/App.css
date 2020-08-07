@@ -28,15 +28,34 @@
 
 #headerMVCPhoneNumber,
 #headerMVCLocationInfo,
-#headerMVCContactInfo,
-#headerMVCMenu {
+#headerMVCContactInfo {
   margin: 15px 0 0 0;
   color: #20a5a2;
   text-align: center;
+  cursor: pointer;
 }
 
-.menuBarIcon {}
+#headerMVCMenu {
+  margin: 15px 0 0 0;
+  color: #20a5a2;
+  text-align: start;
+}
+
+#menuBarIcon {
+  text-align: end;
+  cursor: pointer;
+}
 
 .bar1,
 .bar2,
-.bar3 {}
+.bar3 {
+  width: 20px;
+  height: 1px;
+  background-color: #20a5a2;
+  margin: 6px 0;
+}
+
+.headerh5Menu {
+  margin: 0 10px 0 -15px;
+  cursor: pointer;
+}

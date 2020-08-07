@@ -1,0 +1,53 @@
+/* Header Styling */
+.headerWrapper {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.headerContainer {
+  width: 100%;
+  height: auto;
+}
+
+.headerRow {
+  width: 100%;
+  height: auto;
+}
+
+/* Columns inside headerRow */
+.headerMVCLogo {
+  /* background-color: pink; */
+}
+
+.headerImgMVCLogo {
+  /* Image Tag inside headerMVCLogo */
+  height: 60px;
+  width: auto;
+  text-align: start;
+  margin: 0 0 0 35px;
+}
+
+.headerPhoneNumber {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #20a5a2;
+  text-align: end;
+}
+
+.headerLocationInfo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #20a5a2;
+  text-align: end;
+}
+
+.headerContactInfo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #20a5a2;
+  text-align: end;
+}
+
+.headerMenuOptions {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #20a5a2;
+  text-align: end;
+}

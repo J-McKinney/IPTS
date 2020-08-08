@@ -5,13 +5,19 @@ import Col from "react-bootstrap/Col";
 import Logo from "./assets/transparentLogoIcon.png";
 import DogWindow from "./assets/dogCarWindow.jpg";
 import DogCrate from "./assets/dogInCrate.jpg";
+import HikerDog from "./assets/hikerDog.jpg";
 import "./App.css";
 
 class App extends Component {
-  state = {};
+  state = {
+    playVideo: false,
+    loopVideo: false,
+  };
 
   componentDidMount() {
     console.log("componentDidMount");
+    this.setState({ playVideo: true });
+    this.setState({ loopVideo: true });
   }
 
   stickyFunction = () => {
@@ -63,14 +69,13 @@ class App extends Component {
           {/* HEADER */}
 
           {/* MAIN CONTENT */}
-
           {/* VIDEO WRAPPER */}
           <div className="mainContentWrapper">
             <div className="videoWrapper">
               <Row>
                 <video
-                  autoPlay={true}
-                  loop={true}
+                  autoPlay={this.state.playVideo}
+                  loop={this.state.loopVideo}
                   className="MVCVideo"
                   src={`https://d1l9wtg77iuzz5.cloudfront.net/assets/5637/236873/original.mp4?1530551954`}
                   alt="MVC Video"
@@ -175,9 +180,48 @@ class App extends Component {
               </Container>
             </div>
             {/* TRAVEL INFO WRAPPER */}
+
+            {/* HEALTH CERTIFICATE WRAPPER */}
+            <div className="healthCertificateWrapper">
+              <Container className="healthCertificateContainer">
+                <div className="h1healthCertificateTagHeader">
+                  <h1 className="h1healthCertificateTagTitle">
+                    Health Certificate
+                  </h1>
+                </div>
+                <div className="h3healthCertificateTagSubHeader">
+                  <h3 className="h3healthCertificateTagSubParagraph">
+                    A health certificate is required when shipping your pet as
+                    cargo, and for all pets checked as baggage like those
+                    traveling with a U.S. Military or U.S. State Department
+                    Foreign Service Office Member. Your veterinarian, the U.S.
+                    Department of Agriculture, or the Department of Agriculture
+                    for your destination state may provide you with more
+                    information.
+                  </h3>
+                </div>
+                <Row className="h4healthCertificateTagRow">
+                  <Col className="h4healthCertificateTagCol">
+                    <h3 className="h3healthCertificateTagTitle">
+                      First
+                    </h3>
+                    <h4 className="h4healthCertificateTagParagraph">
+                      When traveling
+                    </h4>
+                  </Col>
+                  <Col>
+                    <img
+                      className="hikerDog"
+                      src={HikerDog}
+                      alt="Dog w/head out window"
+                    />
+                  </Col>
+                </Row>
+              </Container>
+            </div>
+            {/* HEALTH CERTIFICATE WRAPPER */}
+            {/* MAIN CONTENT */}
           </div>
-          {/* MAIN CONTENT */}
-          <br />
         </div>
       </>
     );

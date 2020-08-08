@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "848163db7af1935d5877fa2249d6dfa0",
+    "revision": "8984d88da2bc673fbafb450c10f3bdcf",
     "url": "/IPTS/index.html"
   },
   {
-    "revision": "87796ad5d0f0707ca6de",
+    "revision": "617b4c2b04eadf4e33ed",
     "url": "/IPTS/static/css/main.420c5932.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IPTS/static/js/2.31c11c45.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87796ad5d0f0707ca6de",
-    "url": "/IPTS/static/js/main.9e838f5c.chunk.js"
+    "revision": "617b4c2b04eadf4e33ed",
+    "url": "/IPTS/static/js/main.a7990425.chunk.js"
   },
   {
     "revision": "6bd77cc4f7fd662b4517",

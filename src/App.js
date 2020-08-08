@@ -27,6 +27,7 @@ class App extends Component {
   render() {
     return (
       <>
+        {/* WEBSITE CONTENT */}
         <div className="SiteWrapper">
           {/* HEADER */}
           <div className="headerWrapper" onClick={this.stickyFunction}>
@@ -203,10 +204,17 @@ class App extends Component {
                 <Row className="h4healthCertificateTagRow">
                   <Col className="h4healthCertificateTagCol">
                     <h3 className="h3healthCertificateTagTitle">
-                      First
+                      Health Requirements
                     </h3>
                     <h4 className="h4healthCertificateTagParagraph">
-                      When traveling
+                      Exposure to unfamiliar environments, people and movements
+                      impacts each animal differently and poses risks that could
+                      lead to illness, injury, or escape. While obtaining a
+                      health certificate, please discuss the risks of air travel
+                      with your veterinarian. Consider your animal’s age,
+                      medical history of pre-existing conditions, and/or whether
+                      it has anxiety disorders that may be exacerbated during
+                      travel.
                     </h4>
                   </Col>
                   <Col>
@@ -220,9 +228,16 @@ class App extends Component {
               </Container>
             </div>
             {/* HEALTH CERTIFICATE WRAPPER */}
-            {/* MAIN CONTENT */}
           </div>
+          {/* MAIN CONTENT */}
+
+          {/* FOOTER CONTENT */}
+          <div className="footerWrapper">
+            <Container className="footerContainer"></Container>
+          </div>
+          {/* FOOTER CONTENT */}
         </div>
+        {/* WEBSITE CONTENT */}
       </>
     );
   }

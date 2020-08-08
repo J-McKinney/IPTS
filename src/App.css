@@ -81,7 +81,6 @@ a {
 
 /* TRAVEL CONTENT */
 .travelWrapper {
-  /* margin-top: 200px; */
   background-color: #1f1f1f;
   border-width: 5px;
   border-style: none none solid none;
@@ -194,7 +193,6 @@ a {
 
 /* HEALTH CERTIFICATE CONTENT */
 .healthCertificateWrapper {
-  /* margin-top: 200px; */
   background-color: #1f1f1f;
   border-width: 5px;
   border-style: solid none none none;
@@ -243,11 +241,20 @@ a {
   color: #e8e8e8;
 }
 
-.hikerDog  {
-  /* margin-top: 10px; */
+.hikerDog {
   border-radius: 50px;
   height: 340px;
   width: auto;
 }
 /* HEALTH CERTIFICATE CONTENT */
 /* MAIN CONTENT */
+
+/* FOOTER CONTENT */
+.footerWrapper {
+  background-color: #1f1f1f;
+}
+
+.footerContainer {
+  background-color: #1f1f1f;
+}
+/* FOOTER CONTENT */

@@ -49,7 +49,16 @@ class App extends Component {
                       </h5>
                     </div>
                     <div id="headerMVCLocationInfo" className="col-md-3">
-                      <h5>(404) 919-5150</h5>
+                      <h5>
+                        <a
+                          href="tel:4049195150"
+                          // US area code href phone tag
+                          // href="tel:+14049195150"
+                          data-ga-event="Primary Nav, DialPhone"
+                        >
+                          (404) 919-5150
+                        </a>
+                      </h5>
                     </div>
                     <div id="headerMVCContactInfo" className="col-md-3">
                       <h5>

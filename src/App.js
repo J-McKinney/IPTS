@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Logo from "./assets/transparentLogoIcon.png";
 import DogWindow from "./assets/dogCarWindow.jpg";
+import DogCrate from "./assets/dogInCrate.jpg";
 import "./App.css";
 
 class App extends Component {
@@ -22,35 +23,38 @@ class App extends Component {
       <>
         <div className="SiteWrapper">
           {/* HEADER */}
-          <div className="headerWrapper">
+          <div className="headerWrapper" onClick={this.stickyFunction}>
             <Container fluid className="headerContainer">
               <Row className="headerRow">
                 <div id="headerMVCLogoCol" className="col-md-5">
-                  <img className="headerMVCLogo" src={Logo} alt="MVC Logo" />
+                  <a href="/">
+                    <img className="headerMVCLogo" src={Logo} alt="MVC Logo" />
+                  </a>
                 </div>
                 <div id="nestedCol" className="col-md-7">
                   <Row id="nestedRow" className="nestedRow">
+                    <div id="blankCol" className="col-md-1" />
                     <div id="headerMVCPhoneNumber" className="col-md-3">
-                      <h5>(404) 919-5150</h5>
+                      <h5>
+                        <a href="https://www.mariettavetclinic.com/">
+                          Marietta Vet Clinic
+                        </a>
+                      </h5>
                     </div>
                     <div id="headerMVCLocationInfo" className="col-md-3">
-                      <h5>LOCATION</h5>
+                      <h5>(404) 919-5150</h5>
                     </div>
                     <div id="headerMVCContactInfo" className="col-md-3">
-                      <h5>CONTACT</h5>
+                      <h5>
+                        <a href="/">INQUIRY</a>
+                      </h5>
                     </div>
-                    <div id="headerMVCMenu" className="col-md-3">
-                      <Row className="nestedMenuRow">
-                        <div id="menuBarIcon" className="col-md-3">
-                          <div className="bar1" />
-                          <div className="bar2" />
-                          <div className="bar3" />
-                        </div>
-                        <div className="col-md-9">
-                          <h5 className="headerh5Menu">MENU</h5>
-                        </div>
-                      </Row>
+                    <div id="headerMVCFAQ" className="col-md-1">
+                      <h5>
+                        <a href="/">FAQ</a>
+                      </h5>
                     </div>
+                    <div id="blankCol" className="col-md-1" />
                   </Row>
                 </div>
               </Row>
@@ -131,20 +135,41 @@ class App extends Component {
                 </div>
                 <div className="h3TravelInfoTagSubHeader">
                   <h3 className="h3TravelInfoTagSubParagraph">
-                    Taking your dog or cat
+                    Loading and unloading can be the most stressful part of
+                    travel for any animal. Make sure your pet is healthy enough
+                    to travel. Always consult with your veterinarian first.
                   </h3>
                 </div>
                 <Row className="h4TravelInfoTagRow">
                   <Col>
                     <img
-                      className="secondAnimalImg"
-                      src={DogWindow}
+                      className="dogInCrate"
+                      src={DogCrate}
                       alt="Dog w/head out window"
                     />
                   </Col>
                   <Col className="h4TravelInfoTagCol">
-                    <h3 className="h3TravelInfoTagTitle">First</h3>
-                    <h4 className="h4TravelInfoTagParagraph">When traveling</h4>
+                    <h3 className="h3TravelInfoTagTitle">
+                      Consider These Tips:
+                    </h3>
+                    <h4 className="h4TravelInfoTagParagraph">
+                      Get your pet used to its carrier before the flight.
+                    </h4>
+                    <h4 className="h4TravelInfoTagParagraph">
+                      Purchase flights with fewer connections or layovers.
+                    </h4>
+                    <h4 className="h4TravelInfoTagParagraph">
+                      Pick departure and arrival times to avoid extreme
+                      temperatures.
+                    </h4>
+                    <h4 className="h4TravelInfoTagParagraph">
+                      Walk your pet before leaving home and again before
+                      checking in.
+                    </h4>
+                    <h4 className="h4TravelInfoTagParagraph">
+                      Check in early so it can go to the quiet and dimly lit
+                      hold of the plane.
+                    </h4>
                   </Col>
                 </Row>
               </Container>

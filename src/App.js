@@ -95,6 +95,9 @@ class App extends Component {
                 </div>
                 <Row className="h4TravelTagRow">
                   <Col className="h4TravelTagCol">
+                    <h3 className="h3TravelTagTitle">
+                      First Stop: Your Vet’s Office
+                    </h3>
                     <h4 className="h4TravelTagParagraph">
                       When traveling with your pet/pets, there may be animal
                       health requirements specific for that destination. As soon
@@ -120,7 +123,31 @@ class App extends Component {
 
             {/* TRAVEL INFO WRAPPER */}
             <div className="travelInfoWrapper">
-              <Container className="travelInfoContainer"></Container>
+              <Container className="travelInfoContainer">
+                <div className="h1TravelInfoTagHeader">
+                  <h1 className="h1TravelInfoTagTitle">
+                    Consider Your Pet’s Comfort
+                  </h1>
+                </div>
+                <div className="h3TravelInfoTagSubHeader">
+                  <h3 className="h3TravelInfoTagSubParagraph">
+                    Taking your dog or cat
+                  </h3>
+                </div>
+                <Row className="h4TravelInfoTagRow">
+                  <Col>
+                    <img
+                      className="secondAnimalImg"
+                      src={DogWindow}
+                      alt="Dog w/head out window"
+                    />
+                  </Col>
+                  <Col className="h4TravelInfoTagCol">
+                    <h3 className="h3TravelInfoTagTitle">First</h3>
+                    <h4 className="h4TravelInfoTagParagraph">When traveling</h4>
+                  </Col>
+                </Row>
+              </Container>
             </div>
             {/* TRAVEL INFO WRAPPER */}
           </div>

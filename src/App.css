@@ -138,6 +138,12 @@
   text-align: center;
 }
 
+.h3TravelTagTitle {
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+  color: #20a5a2;
+}
+
 .h4TravelTagParagraph {
   line-height: 160%;
   font-family: "Times New Roman", Times, serif;
@@ -146,7 +152,7 @@
 
 .dogWindow {
   border-radius: 50px;
-  height: 300px;
+  height: 340px;
   width: auto;
 }
 /* TRAVEL CONTENT */
@@ -154,7 +160,6 @@
 /* TRAVEL INFO CONTENT */
 .travelInfoWrapper {
   background-color: #1f1f1f;
-  height:700px;
 }
 
 .travelInfoContainer {
@@ -162,6 +167,47 @@
   margin-bottom: 100px;
   background-color: #1f1f1f;
   text-align: center;
+}
+
+.h1TravelInfoTagHeader {
+  font-family: "Times New Roman", Times, serif;
+  color: #20a5a2;
+}
+
+.h3TravelInfoTagSubParagraph {
+  line-height: 150%;
+}
+
+.h3TravelInfoTagSubHeader {
+  margin: 50px 0 0 0;
+  font-family: "Times New Roman", Times, serif;
+  color: #e8e8e8;
+}
+
+.h4TravelInfoTagRow {
+  margin: 100px 0 0 0;
+}
+
+.h4TravelTagCol {
+  text-align: center;
+}
+
+.h3TravelInfoTagTitle {
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+  color: #20a5a2;
+}
+
+.h4TravelInfoTagParagraph {
+  line-height: 160%;
+  font-family: "Times New Roman", Times, serif;
+  color: #e8e8e8;
+}
+
+.secondAnimalImg {
+  border-radius: 50px;
+  height: 340px;
+  width: auto;
 }
 /* TRAVEL INFO CONTENT */
 

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/IPTS/static/css/main.a85f3813.chunk.css",
+    "main.js": "/IPTS/static/js/main.ae76838f.chunk.js",
+    "main.js.map": "/IPTS/static/js/main.ae76838f.chunk.js.map",
+    "runtime-main.js": "/IPTS/static/js/runtime-main.27d9cd14.js",
+    "runtime-main.js.map": "/IPTS/static/js/runtime-main.27d9cd14.js.map",
+    "static/js/2.29dd2285.chunk.js": "/IPTS/static/js/2.29dd2285.chunk.js",
+    "static/js/2.29dd2285.chunk.js.map": "/IPTS/static/js/2.29dd2285.chunk.js.map",
+    "index.html": "/IPTS/index.html",
+    "precache-manifest.25297ed3821ff038efd4e2704c983b0f.js": "/IPTS/precache-manifest.25297ed3821ff038efd4e2704c983b0f.js",
+    "service-worker.js": "/IPTS/service-worker.js",
+    "static/css/main.a85f3813.chunk.css.map": "/IPTS/static/css/main.a85f3813.chunk.css.map",
+    "static/js/2.29dd2285.chunk.js.LICENSE.txt": "/IPTS/static/js/2.29dd2285.chunk.js.LICENSE.txt",
+    "static/media/dogCarWindow.jpg": "/IPTS/static/media/dogCarWindow.10a320a5.jpg",
+    "static/media/dogInCrate.jpg": "/IPTS/static/media/dogInCrate.7a816171.jpg",
+    "static/media/transparentLogoIcon.png": "/IPTS/static/media/transparentLogoIcon.e7441c12.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27d9cd14.js",
+    "static/js/2.29dd2285.chunk.js",
+    "static/css/main.a85f3813.chunk.css",
+    "static/js/main.ae76838f.chunk.js"
+  ]
+}

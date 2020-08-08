@@ -55,7 +55,7 @@ class App extends Component {
                           // US area code href phone tag
                           // href="tel:+14049195150"
                         >
-                          (404) 919-5150
+                          (404)919-5150
                         </a>
                       </h5>
                     </div>

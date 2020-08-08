@@ -59,6 +59,8 @@ class App extends Component {
           {/* HEADER */}
 
           {/* MAIN CONTENT */}
+
+          {/* VIDEO WRAPPER */}
           <div className="mainContentWrapper">
             <div className="videoWrapper">
               <Row>
@@ -71,7 +73,9 @@ class App extends Component {
                 ></video>
               </Row>
             </div>
+            {/* VIDEO WRAPPER */}
 
+            {/* TRAVEL WRAPPER */}
             <div className="travelWrapper">
               <Container className="travelContainer">
                 <div className="h1TravelTagHeader">
@@ -98,7 +102,7 @@ class App extends Component {
                       veterinarian to assist with the pet travel process.
                       Factors to consider may include meeting time frames for
                       obtaining a health certificate, updating vaccinations,
-                      diagnostic testing, or administration of
+                      diagnostic testing, microchips, or administration of
                       medications/treatments.
                     </h4>
                   </Col>
@@ -112,8 +116,13 @@ class App extends Component {
                 </Row>
               </Container>
             </div>
+            {/* TRAVEL WRAPPER */}
 
-            <div></div>
+            {/* TRAVEL INFO WRAPPER */}
+            <div className="travelInfoWrapper">
+              <Container className="travelInfoContainer"></Container>
+            </div>
+            {/* TRAVEL INFO WRAPPER */}
           </div>
           {/* MAIN CONTENT */}
           <br />

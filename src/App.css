@@ -11,7 +11,7 @@
 
 /* HEADER */
 .headerWrapper {
-  background-color: black;
+  background-color: #1f1f1f;
   width: 100%;
   /* position: fixed; */
   position: sticky;
@@ -81,9 +81,10 @@
 
 /* MAIN CONTENT */
 .mainContentWrapper {
-  background-color: black;
+  background-color: #1f1f1f;
 }
 
+/* VIDEO CONTENT */
 .videoWrapper {
   object-fit: contain;
   text-align: center;
@@ -96,18 +97,21 @@
   height: 100%;
   width: 100%;
 }
+/* VIDEO CONTENT */
 
+/* TRAVEL CONTENT */
 .travelWrapper {
   /* margin-top: 200px; */
-  border-width: 10px;
-  border-style: solid none solid none;
-  border-color: #e8e8e8;
+  background-color: #1f1f1f;
+  border-width: 5px;
+  border-style: none none solid none;
+  border-color: #cecece;
 }
 
 .travelContainer {
   margin-top: 100px;
   margin-bottom: 100px;
-  background-color: black;
+  background-color: #1f1f1f;
   text-align: center;
 }
 
@@ -141,7 +145,24 @@
 }
 
 .dogWindow {
+  border-radius: 50px;
   height: 300px;
   width: auto;
 }
+/* TRAVEL CONTENT */
+
+/* TRAVEL INFO CONTENT */
+.travelInfoWrapper {
+  background-color: #1f1f1f;
+  height:700px;
+}
+
+.travelInfoContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+/* TRAVEL INFO CONTENT */
+
 /* MAIN CONTENT */

@@ -49,12 +49,14 @@
   color: #20a5a2;
   text-align: center;
   cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #headerMVCMenu {
   margin: 15px 0 0 0;
   color: #20a5a2;
   text-align: start;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #menuBarIcon {
@@ -68,7 +70,7 @@
   width: 20px;
   height: 1px;
   background-color: #20a5a2;
-  margin: 6px 0;
+  margin: 5.5px 0;
 }
 
 .headerh5Menu {
@@ -78,6 +80,10 @@
 /* HEADER */
 
 /* MAIN CONTENT */
+.mainContentWrapper {
+  background-color: black;
+}
+
 .videoWrapper {
   object-fit: contain;
   text-align: center;
@@ -90,3 +96,52 @@
   height: 100%;
   width: 100%;
 }
+
+.travelWrapper {
+  /* margin-top: 200px; */
+  border-width: 10px;
+  border-style: solid none solid none;
+  border-color: #e8e8e8;
+}
+
+.travelContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: black;
+  text-align: center;
+}
+
+.h1TravelTagHeader {
+  font-family: "Times New Roman", Times, serif;
+  color: #20a5a2;
+}
+
+.h3TravelTagSubParagraph {
+  line-height: 150%;
+}
+
+.h3TravelTagSubHeader {
+  margin: 50px 0 0 0;
+  font-family: "Times New Roman", Times, serif;
+  color: #e8e8e8;
+}
+
+.h4TravelTagRow {
+  margin: 100px 0 0 0;
+}
+
+.h4TravelTagCol {
+  text-align: center;
+}
+
+.h4TravelTagParagraph {
+  line-height: 160%;
+  font-family: "Times New Roman", Times, serif;
+  color: #e8e8e8;
+}
+
+.dogWindow {
+  height: 300px;
+  width: auto;
+}
+/* MAIN CONTENT */

@@ -54,7 +54,6 @@ class App extends Component {
                           href="tel:4049195150"
                           // US area code href phone tag
                           // href="tel:+14049195150"
-                          data-ga-event="Primary Nav, DialPhone"
                         >
                           (404) 919-5150
                         </a>

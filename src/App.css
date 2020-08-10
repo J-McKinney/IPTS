@@ -254,9 +254,42 @@ a {
 /* FOOTER CONTENT */
 .footerWrapper {
   background-color: #1f1f1f;
+  border-width: 5px;
+  border-style: solid none none none;
+  border-color: #cecece;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .footerContainer {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
   background-color: #1f1f1f;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.footerAddressRow {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.footerH3AddressTag {
+  color: #e8e8e8;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#footerPhoneNumberATag {
+  cursor: pointer;
+  color: #e8e8e8;
+  font-family: "Times New Roman", Times, serif;
 }
 /* FOOTER CONTENT */

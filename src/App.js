@@ -241,7 +241,27 @@ class App extends Component {
 
           {/* FOOTER CONTENT */}
           <div className="footerWrapper">
-            <Container className="footerContainer"></Container>
+            <Container className="footerContainer">
+              <Row className="footerAddressRow">
+                <Col>
+                  <h3 className="footerH3AddressTag">
+                    3696 Largent Way NW Ste 200, Marietta, GA 30064
+                  </h3>
+                </Col>
+                <Col>
+                  <h3 className="footerH3AddressTag">
+                    <a
+                      id="footerPhoneNumberATag"
+                      href="tel:4049195150"
+                      // US area code href phone tag
+                      // href="tel:+14049195150"
+                    >
+                      (404)919-5150
+                    </a>
+                  </h3>
+                </Col>
+              </Row>
+            </Container>
           </div>
           {/* FOOTER CONTENT */}
         </div>

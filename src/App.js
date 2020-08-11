@@ -243,23 +243,45 @@ class App extends Component {
           <div className="footerWrapper">
             <Container className="footerContainer">
               <Row className="footerAddressRow">
-                <Col>
-                  <h3 className="footerH3AddressTag">
-                    3696 Largent Way NW Ste 200, Marietta, GA 30064
-                  </h3>
-                </Col>
-                <Col>
-                  <h3 className="footerH3AddressTag">
+                <div id="footerLogoCol" className="col-md-2">
+                  <a href="/">
+                    <img
+                      className="FooterLogo"
+                      src={Logo}
+                      alt="Footer MVC Logo"
+                    />
+                  </a>
+                </div>
+                <div id="footerMVCTag" className="col-md-3">
+                  <h5>
+                    <a href="https://www.mariettavetclinic.com/">
+                      Marietta Vet Clinic
+                    </a>
+                  </h5>
+                </div>
+                <div id="footerMVCPhoneNumberTag" className="col-md-3">
+                  <h5>
                     <a
-                      id="footerPhoneNumberATag"
                       href="tel:4049195150"
                       // US area code href phone tag
                       // href="tel:+14049195150"
                     >
                       (404)919-5150
                     </a>
-                  </h3>
-                </Col>
+                  </h5>
+                </div>
+                <div id="footerMVCInquiryTag" className="col-md-2">
+                  <h5>
+                    <a href="/">INQUIRY</a>
+                  </h5>
+                </div>
+                <div id="footerMVCFAQTag" className="col-md-1">
+                  <h5>
+                    <a href="/">FAQ</a>
+                  </h5>
+                </div>
+                <div id="blankDiv" className="col-md-1" />
+                {""}
               </Row>
             </Container>
           </div>

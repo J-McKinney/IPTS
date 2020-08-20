@@ -42,27 +42,27 @@ class Inquiry extends Component {
   componentWillMount() {
     console.log("WillMount, ownerFirstName: ", this.state.ownerFirstName);
     console.log("WillMount, ownerLastName: ", this.state.ownerLastName);
-    console.log("WillMount, petType: ", this.state.petType);
+    // console.log("WillMount, petType: ", this.state.petType);
   }
   componentDidMount() {
     console.log("DidMount, ownerFirstName: ", this.state.ownerFirstName);
     console.log("DidMount, ownerLastName: ", this.state.ownerLastName);
-    console.log("DidMount, petType: ", this.state.petType);
+    // console.log("DidMount, petType: ", this.state.petType);
   }
   componentWillUpdate() {
     console.log("WillUpdate, ownerFirstName: ", this.state.ownerFirstName);
     console.log("WillUpdate, ownerLastName: ", this.state.ownerLastName);
-    console.log("WillUpdate, petType: ", this.state.petType);
+    // console.log("WillUpdate, petType: ", this.state.petType);
   }
   componentDidUpdate() {
     console.log("DidUpdate, ownerFirstName: ", this.state.ownerFirstName);
     console.log("DidUpdate, ownerLastName: ", this.state.ownerLastName);
-    console.log("DidUpdate, petType: ", this.state.petType);
+    // console.log("DidUpdate, petType: ", this.state.petType);
   }
   componentWillUnmount() {
     console.log("WillUnmount, ownerFirstName: ", this.state.ownerFirstName);
     console.log("WillUnmount, ownerLastName: ", this.state.ownerLastName);
-    console.log("WillUnmount, petType: ", this.state.petType);
+    // console.log("WillUnmount, petType: ", this.state.petType);
   }
   //
 
@@ -122,20 +122,22 @@ class Inquiry extends Component {
                   </Form.Label>
                   <Col sm={4}>
                     <Form.Check
-                      value={this.state.petType}
+                      //   value={this.state.petType}
+                      name="Dog"
+                      //   onChange={this.handleInputChange}
                       type="radio"
                       label="Dog Woof"
-                      name="petType"
-                      id="formHorizontalRadios1"
+                      id="dogButton"
                     />
                   </Col>
                   <Col sm={4}>
                     <Form.Check
-                      value={this.state.petType}
+                      //   value={this.state.petType}
+                      name="Cat"
+                      //   onChange={this.handleInputChange}
                       type="radio"
                       label="Cat Meow"
-                      name="petType"
-                      id="formHorizontalRadios2"
+                      id="catButton"
                     />
                   </Col>
                 </Form.Group>

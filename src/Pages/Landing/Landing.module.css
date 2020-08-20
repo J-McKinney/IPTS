@@ -1,0 +1,293 @@
+/* WEBSITE CONTENT */
+.SiteWrapper {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  box-sizing: border-box;
+  justify-content: center;
+  top: 0;
+}
+/* WEBSITE CONTENT */
+
+/* HEADER */
+.headerWrapper {
+  background-color: #1f1f1f;
+  width: 100%;
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+}
+
+.headerContainer {
+  width: 100%;
+}
+
+.headerRow {
+  width: 100%;
+}
+
+#headerMVCLogoCol {
+  text-align: start;
+}
+
+.headerMVCLogo {
+  height: 60px;
+  width: auto;
+  margin: 0 0 0 45px;
+  cursor: pointer;
+}
+
+#nestedRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+#headerMVCPhoneNumber,
+#headerMVCLocationInfo,
+#headerMVCContactInfo,
+#headerMVCFAQ {
+  margin: 15px 0 0 0;
+  color: #20a5a2;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  cursor: pointer;
+  color: #20a5a2;
+  font-family: "Times New Roman", Times, serif;
+}
+/* HEADER */
+
+/* MAIN CONTENT */
+.mainContentWrapper {
+  background-color: #1f1f1f;
+}
+
+/* VIDEO CONTENT */
+.videoWrapper {
+  object-fit: contain;
+  text-align: center;
+  justify-content: center;
+  width: 98.92%;
+  height: auto;
+}
+
+.MVCVideo {
+  height: 100%;
+  width: 100%;
+}
+/* VIDEO CONTENT */
+
+/* TRAVEL CONTENT */
+.travelWrapper {
+  background-color: #1f1f1f;
+  border-width: 5px;
+  border-style: none none solid none;
+  border-color: #cecece;
+}
+
+.travelContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.h1TravelTagHeader {
+  font-family: "Times New Roman", Times, serif;
+  color: #20a5a2;
+}
+
+.h3TravelTagSubParagraph {
+  line-height: 150%;
+}
+
+.h3TravelTagSubHeader {
+  margin: 50px 0 0 0;
+  font-family: "Times New Roman", Times, serif;
+  color: #e8e8e8;
+}
+
+.h4TravelTagRow {
+  margin: 100px 0 0 0;
+}
+
+.h4TravelTagCol {
+  text-align: center;
+}
+
+.h3TravelTagTitle {
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+  color: #20a5a2;
+}
+
+.h4TravelTagParagraph {
+  line-height: 160%;
+  font-family: "Times New Roman", Times, serif;
+  color: #e8e8e8;
+}
+
+.dogWindow {
+  border-radius: 50px;
+  height: 340px;
+  width: auto;
+}
+/* TRAVEL CONTENT */
+
+/* TRAVEL INFO CONTENT */
+.travelInfoWrapper {
+  background-color: #1f1f1f;
+}
+
+.travelInfoContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.h1TravelInfoTagHeader {
+  font-family: "Times New Roman", Times, serif;
+  color: #20a5a2;
+}
+
+.h3TravelInfoTagSubParagraph {
+  line-height: 150%;
+}
+
+.h3TravelInfoTagSubHeader {
+  margin: 50px 0 0 0;
+  font-family: "Times New Roman", Times, serif;
+  color: #e8e8e8;
+}
+
+.h4TravelInfoTagRow {
+  margin: 100px 0 0 0;
+}
+
+.h4TravelInfoTagCol {
+  text-align: center;
+}
+
+.h3TravelInfoTagTitle {
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+  color: #20a5a2;
+}
+
+.h4TravelInfoTagParagraph {
+  line-height: 160%;
+  font-family: "Times New Roman", Times, serif;
+  color: #e8e8e8;
+}
+
+.dogInCrate {
+  margin-top: 23px;
+  border-radius: 50px;
+  height: 340px;
+  width: auto;
+}
+/* TRAVEL INFO CONTENT */
+
+/* HEALTH CERTIFICATE CONTENT */
+.healthCertificateWrapper {
+  background-color: #1f1f1f;
+  border-width: 5px;
+  border-style: solid none none none;
+  border-color: #cecece;
+}
+
+.healthCertificateContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.h1healthCertificateTagHeader {
+  font-family: "Times New Roman", Times, serif;
+  color: #20a5a2;
+}
+
+.h3healthCertificateTagSubParagraph {
+  line-height: 150%;
+}
+
+.h3healthCertificateTagSubHeader {
+  margin: 50px 0 0 0;
+  font-family: "Times New Roman", Times, serif;
+  color: #e8e8e8;
+}
+
+.h4healthCertificateTagRow {
+  margin: 100px 0 0 0;
+}
+
+.h4healthCertificateTagCol {
+  text-align: center;
+}
+
+.h3healthCertificateTagTitle {
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+  color: #20a5a2;
+}
+
+.h4healthCertificateTagParagraph {
+  line-height: 160%;
+  font-family: "Times New Roman", Times, serif;
+  color: #e8e8e8;
+}
+
+.hikerDog {
+  border-radius: 50px;
+  height: 340px;
+  width: auto;
+}
+/* HEALTH CERTIFICATE CONTENT */
+/* MAIN CONTENT */
+
+/* FOOTER CONTENT */
+.footerWrapper {
+  background-color: #1f1f1f;
+  border-width: 5px;
+  border-style: solid none none none;
+  border-color: #cecece;
+  width: 100%;
+  height: auto;
+}
+
+.footerContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+  background-color: #1f1f1f;
+}
+
+.footerLogoCol {
+  top: 0;
+  left: 0;
+}
+
+.FooterLogo {
+  height: 100px;
+  width: auto;
+}
+
+#footerMVCFAQTag {
+  text-align: end;
+  /* box-shadow: 10px 10px 10px 10px #000000; */
+}
+
+#footerMVCTag,
+#footerMVCPhoneNumberTag,
+#footerMVCInquiryTag,
+#footerMVCFAQTag {
+  padding-top: 35px;
+}
+/* FOOTER CONTENT */

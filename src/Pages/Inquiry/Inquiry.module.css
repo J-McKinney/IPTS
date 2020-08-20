@@ -9,3 +9,9 @@
   justify-content: center;
   top: 0;
 }
+
+.ownerInfoContainer {
+  width: 100%;
+  height: auto;
+  background-color: yellow;
+}

@@ -26,13 +26,13 @@
 
 <!-- pet departure info: -->
 <!-- depart city -->
-<!-- country -->
 <!-- state/province -->
+<!-- country -->
 
 <!-- pet arrival info: -->
 <!-- arrival city -->
-<!-- country -->
 <!-- state/province -->
+<!-- country -->
 
 <!-- additional comments: -->
 

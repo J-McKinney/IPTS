@@ -5,7 +5,7 @@ class Inquiry extends Component {
   render() {
     return (
       <>
-        <div></div>
+        <div className={Style.wrapper}></div>
       </>
     );
   }

@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: #1f1f1f;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  box-sizing: border-box;
+  justify-content: center;
+  top: 0;
+}

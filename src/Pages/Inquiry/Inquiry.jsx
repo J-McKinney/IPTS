@@ -15,59 +15,44 @@ class Inquiry extends Component {
   state = {
     ownerFirstName: "",
     ownerLastName: "",
-    homeCity: "",
-    homeState: "",
-    homeZip: "",
-    homeCountry: "",
-    contactNumber: "",
-    emailAddress: "",
-    activeMilitary: false,
-    petName: "",
-    petAge: 0,
+    // homeCity: "",
+    // homeState: "",
+    // homeZip: "",
+    // homeCountry: "",
+    // contactNumber: "",
+    // emailAddress: "",
+    // activeMilitary: false,
+    // petName: "",
+    // petAge: 0,
     petType: "",
-    petBreed: "",
-    petGender: "",
-    petWeight: 0,
-    travelCrate: false,
-    petDepartureCity: "",
-    petDepartureState: "",
-    petDepartureCountry: "",
-    petArrivalCity: "",
-    petArrivalState: "",
-    petArrivalCountry: "",
+    // petBreed: "",
+    // petGender: "",
+    // petWeight: 0,
+    // travelCrate: false,
+    // petDepartureCity: "",
+    // petDepartureState: "",
+    // petDepartureCountry: "",
+    // petArrivalCity: "",
+    // petArrivalState: "",
+    // petArrivalCountry: "",
     additionalComments: "",
   };
 
   //
-  componentWillMount() {
-    console.log("WillMount, ownerFirstName: ", this.state.ownerFirstName);
-    console.log("WillMount, ownerLastName: ", this.state.ownerLastName);
-    // console.log("WillMount, petType: ", this.state.petType);
-  }
   componentDidMount() {
     console.log("DidMount, ownerFirstName: ", this.state.ownerFirstName);
     console.log("DidMount, ownerLastName: ", this.state.ownerLastName);
-    // console.log("DidMount, petType: ", this.state.petType);
-  }
-  componentWillUpdate() {
-    console.log("WillUpdate, ownerFirstName: ", this.state.ownerFirstName);
-    console.log("WillUpdate, ownerLastName: ", this.state.ownerLastName);
-    // console.log("WillUpdate, petType: ", this.state.petType);
+    console.log("DidMount, petType: ", this.state.petType);
   }
   componentDidUpdate() {
     console.log("DidUpdate, ownerFirstName: ", this.state.ownerFirstName);
     console.log("DidUpdate, ownerLastName: ", this.state.ownerLastName);
-    // console.log("DidUpdate, petType: ", this.state.petType);
-  }
-  componentWillUnmount() {
-    console.log("WillUnmount, ownerFirstName: ", this.state.ownerFirstName);
-    console.log("WillUnmount, ownerLastName: ", this.state.ownerLastName);
-    // console.log("WillUnmount, petType: ", this.state.petType);
+    console.log("DidUpdate, petType: ", this.state.petType);
   }
   //
 
-  handleInputChange = (event) => {
-    const { name, value } = event.target;
+  handleInputChange = (e) => {
+    const { name, value } = e.target;
     this.setState({
       [name]: value,
     });
@@ -117,27 +102,27 @@ class Inquiry extends Component {
               {/* Type of Animal Radio Buttons */}
               <fieldset>
                 <Form.Group as={Row}>
-                  <Form.Label as="legend" column sm={4}>
+                  <Form.Label as="legend" column sm={1}>
                     Type Of Animal:
                   </Form.Label>
-                  <Col sm={4}>
+                  <Col sm={2}>
                     <Form.Check
-                      //   value={this.state.petType}
-                      name="Dog"
-                      //   onChange={this.handleInputChange}
+                      // onClick={this.setState({ petType: "Dog" })}
+                      // value={this.state.petType}
+                      // onChange={this.handleInputChange}
                       type="radio"
-                      label="Dog Woof"
-                      id="dogButton"
+                      label="Dog"
+                      name="formHorizontalRadios"
+                      id="formHorizontalRadios1"
                     />
-                  </Col>
-                  <Col sm={4}>
                     <Form.Check
-                      //   value={this.state.petType}
-                      name="Cat"
-                      //   onChange={this.handleInputChange}
+                      // onClick={this.setState({ petType: "Cat" })}
+                      // value={this.state.petType}
+                      // onChange={this.handleInputChange}
                       type="radio"
-                      label="Cat Meow"
-                      id="catButton"
+                      label="Cat"
+                      name="formHorizontalRadios"
+                      id="formHorizontalRadios2"
                     />
                   </Col>
                 </Form.Group>

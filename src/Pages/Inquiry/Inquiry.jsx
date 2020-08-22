@@ -107,21 +107,21 @@ class Inquiry extends Component {
                   </Form.Label>
                   <Col sm={2}>
                     <Form.Check
-                      // onClick={this.setState({ petType: "Dog" })}
-                      // value={this.state.petType}
-                      // onChange={this.handleInputChange}
+                      checked={this.state.petType === "Dog"}
+                      value="Dog"
+                      onChange={this.handleInputChange}
                       type="radio"
                       label="Dog"
-                      name="formHorizontalRadios"
+                      name="petType"
                       id="formHorizontalRadios1"
                     />
                     <Form.Check
-                      // onClick={this.setState({ petType: "Cat" })}
-                      // value={this.state.petType}
-                      // onChange={this.handleInputChange}
+                      checked={this.state.petType === "Cat"}
+                      value="Cat"
+                      onChange={this.handleInputChange}
                       type="radio"
                       label="Cat"
-                      name="formHorizontalRadios"
+                      name="petType"
                       id="formHorizontalRadios2"
                     />
                   </Col>

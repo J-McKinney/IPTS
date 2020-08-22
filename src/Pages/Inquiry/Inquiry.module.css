@@ -14,7 +14,7 @@
   border-radius: 40px;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  padding-bottom: 30px;
+  padding-bottom: 4.5vh;
   width: 100%;
   height: auto;
   background-color: #20a5a2;
@@ -22,6 +22,16 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.ownerInfoFormRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ownerInfoFirstNameCol,
+.ownerInfoLastNameCol {
+  flex: 50%;
 }
 
 .firstNameTag,
@@ -50,23 +60,15 @@ input[type="radio"] {
   border-radius: 30px;
 }
 
-/* @media screen and (max-width: 281px) {
-  .wrapper {
-    background-color: #ff0000;
-    width: 100%;
-    min-height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: auto;
-    box-sizing: border-box;
-    justify-content: center;
-    top: 0;
+@media screen and (max-width: 992px) {
+  .ownerInfoFirstNameCol,
+  .ownerInfoLastNameCol {
+    flex: 50%;
   }
+}
 
-  .ownerInfoFirstNameFormControl,
-  .ownerInfoLastNameFormControl {
-    width: 150px;
-    display: flex;
+@media screen and (max-width: 600px) {
+  .ownerInfoFormRow {
     flex-direction: column;
   }
-} */
+}

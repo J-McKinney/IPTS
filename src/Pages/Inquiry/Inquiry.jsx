@@ -15,10 +15,10 @@ class Inquiry extends Component {
   state = {
     ownerFirstName: "",
     ownerLastName: "",
-    // homeCity: "",
-    // homeState: "",
-    // homeZip: "",
     // homeCountry: "",
+    // homeState: "",
+    // homeCity: "",
+    // homeZip: "",
     // contactNumber: "",
     // emailAddress: "",
     // activeMilitary: false,
@@ -40,14 +40,16 @@ class Inquiry extends Component {
 
   //
   componentDidMount() {
-    console.log("DidMount, ownerFirstName: ", this.state.ownerFirstName);
-    console.log("DidMount, ownerLastName: ", this.state.ownerLastName);
-    console.log("DidMount, petType: ", this.state.petType);
+    // console.log("DidMount, ownerFirstName: ", this.state.ownerFirstName);
+    // console.log("DidMount, ownerLastName: ", this.state.ownerLastName);
+    // console.log("DidMount,Comments: ", this.state.additionalComments);
+    // console.log("DidMount, petType: ", this.state.petType);
   }
   componentDidUpdate() {
-    console.log("DidUpdate, ownerFirstName: ", this.state.ownerFirstName);
-    console.log("DidUpdate, ownerLastName: ", this.state.ownerLastName);
-    console.log("DidUpdate, petType: ", this.state.petType);
+    // console.log("DidUpdate, ownerFirstName: ", this.state.ownerFirstName);
+    // console.log("DidUpdate, ownerLastName: ", this.state.ownerLastName);
+    // console.log("DidUpdate,Comments: ", this.state.additionalComments);
+    // console.log("DidUpdate, petType: ", this.state.petType);
   }
   //
 
@@ -132,7 +134,14 @@ class Inquiry extends Component {
               {/* Text Area */}
               <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Additional Comments</Form.Label>
-                <Form.Control as="textarea" rows="5" maxLength="600" />
+                <Form.Control
+                  as="textarea"
+                  rows="5"
+                  maxLength="600"
+                  value={this.state.additionalComments}
+                  name="additionalComments"
+                  onChange={this.handleInputChange}
+                />
               </Form.Group>
               {/* Text Area */}
               <br />

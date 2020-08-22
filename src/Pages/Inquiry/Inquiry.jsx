@@ -74,11 +74,14 @@ class Inquiry extends Component {
           <Container className={Style.ownerInfoContainer}>
             <Form>
               <br />
-              <Form.Row>
-                {/* First Name */}
-                <Col>
-                  <Form.Label>First Name</Form.Label>
+              <Form.Row className={Style.ownerInfoFormRow}>
+                <Col className={Style.ownerInfoFirstNameCol}>
+                  {/* First Name */}
+                  <Form.Label className={Style.firstNameTag}>
+                    First Name
+                  </Form.Label>
                   <Form.Control
+                    className={Style.ownerInfoFirstNameFormControl}
                     value={this.state.ownerFirstName}
                     name="ownerFirstName"
                     onChange={this.handleInputChange}
@@ -88,9 +91,12 @@ class Inquiry extends Component {
                 </Col>
                 {/* First Name */}
                 {/* Last Name */}
-                <Col>
-                  <Form.Label>Last Name</Form.Label>
+                <Col className={Style.ownerInfoLastNameCol}>
+                  <Form.Label className={Style.lastNameTag}>
+                    Last Name
+                  </Form.Label>
                   <Form.Control
+                    className={Style.ownerInfoLastNameFormControl}
                     value={this.state.ownerLastName}
                     name="ownerLastName"
                     onChange={this.handleInputChange}
@@ -102,31 +108,33 @@ class Inquiry extends Component {
               </Form.Row>
               <br />
               {/* Type of Animal Radio Buttons */}
-              <fieldset>
-                <Form.Group as={Row}>
-                  <Form.Label as="legend" column sm={1}>
-                    Type Of Animal:
-                  </Form.Label>
-                  <Col sm={2}>
-                    <Form.Check
-                      checked={this.state.petType === "Dog"}
-                      value="Dog"
-                      onChange={this.handleInputChange}
-                      type="radio"
-                      label="Dog"
-                      name="petType"
-                      id="formHorizontalRadios1"
-                    />
-                    <Form.Check
-                      checked={this.state.petType === "Cat"}
-                      value="Cat"
-                      onChange={this.handleInputChange}
-                      type="radio"
-                      label="Cat"
-                      name="petType"
-                      id="formHorizontalRadios2"
-                    />
-                  </Col>
+              <fieldset className={Style.petTypeFieldset}>
+                <Form.Group as={Col}>
+                  <Form.Label as="legend">Type Of Animal:</Form.Label>
+                  <Row>
+                    <Col>
+                      <Form.Check
+                        checked={this.state.petType === "Dog"}
+                        value="Dog"
+                        onChange={this.handleInputChange}
+                        type="radio"
+                        label="Dog"
+                        name="petType"
+                        className={Style.dogRadioButton}
+                      />
+                    </Col>
+                    <Col>
+                      <Form.Check
+                        checked={this.state.petType === "Cat"}
+                        value="Cat"
+                        onChange={this.handleInputChange}
+                        type="radio"
+                        label="Cat"
+                        name="petType"
+                        className={Style.catRadioButton}
+                      />
+                    </Col>
+                  </Row>
                 </Form.Group>
               </fieldset>
               {/* Type of Animal Radio Buttons */}
@@ -146,7 +154,12 @@ class Inquiry extends Component {
               {/* Text Area */}
               <br />
               {/* Submit Button */}
-              <Button onClick={this.onSubmit} variant="primary" type="submit">
+              <Button
+                className={Style.submitButton}
+                onClick={this.onSubmit}
+                variant="primary"
+                type="submit"
+              >
                 Submit
               </Button>
               {/* Submit Button */}

@@ -31,6 +31,7 @@
 
 .ownerInfoFirstNameCol,
 .ownerInfoLastNameCol {
+  /* flex: 25%; if it had 4 boxes with 2 use 50% */
   flex: 50%;
 }
 

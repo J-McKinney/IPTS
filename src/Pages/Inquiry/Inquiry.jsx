@@ -71,7 +71,7 @@ class Inquiry extends Component {
         {/* Form Wrapper */}
         <div className={Style.wrapper}>
           {/* Form Container */}
-          <Container className={Style.ownerInfoContainer}>
+          <Container className={Style.formContainer}>
             <Form>
               <br />
               <Form.Row className={Style.ownerInfoFormRow}>

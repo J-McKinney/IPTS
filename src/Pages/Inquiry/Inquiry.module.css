@@ -25,6 +25,8 @@
 }
 
 .ownerInfoHeaderTag {
+  text-align: center;
+  justify-content: center;
   font-size: xx-large;
 }
 
@@ -49,6 +51,10 @@
   text-align: center;
 }
 
+.animalTypeFormLabel {
+  font-size: x-large;
+}
+
 .dogRadioButton,
 .catRadioButton {
   font-size: large;
@@ -66,9 +72,31 @@ input[type="radio"] {
 }
 
 @media screen and (max-width: 992px) {
+  .ownerInfoHeaderTag {
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+  }
+
   .ownerInfoFirstNameCol,
   .ownerInfoLastNameCol {
     flex: 50%;
+  }
+
+  .firstNameTag,
+  .lastNameTag,
+  .animalTypeFormLabel {
+    font-size: large;
+  }
+
+  .dogRadioButton,
+  .catRadioButton {
+    font-size: medium;
+    font-weight: 500;
+  }
+
+  input[type="radio"] {
+    transform: scale(1.5);
   }
 
   .submitButton {

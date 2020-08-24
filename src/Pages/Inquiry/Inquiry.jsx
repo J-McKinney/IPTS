@@ -111,7 +111,9 @@ class Inquiry extends Component {
               {/* Type of Animal Radio Buttons */}
               <fieldset className={Style.petTypeFieldset}>
                 <Form.Group as={Col}>
-                  <Form.Label as="legend">Type Of Animal:</Form.Label>
+                  <Form.Label as="legend" className={Style.animalTypeFormLabel}>
+                    Type Of Animal:
+                  </Form.Label>
                   <Row>
                     <Col>
                       <Form.Check

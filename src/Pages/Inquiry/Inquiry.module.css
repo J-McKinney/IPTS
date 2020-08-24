@@ -24,6 +24,10 @@
   flex-direction: column;
 }
 
+.ownerInfoHeaderTag {
+  font-size: xx-large;
+}
+
 .ownerInfoFormRow {
   display: flex;
   flex-wrap: wrap;
@@ -66,10 +70,27 @@ input[type="radio"] {
   .ownerInfoLastNameCol {
     flex: 50%;
   }
+
+  .submitButton {
+    width: 100%;
+    height: 9vh;
+    border-radius: 30px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .ownerInfoFormRow {
     flex-direction: column;
+  }
+
+  .ownerInfoFirstNameCol,
+  .ownerInfoLastNameCol {
+    margin-bottom: 10px;
+  }
+
+  .submitButton {
+    width: 100%;
+    height: 7vh;
+    border-radius: 30px;
   }
 }

@@ -72,6 +72,7 @@ class Inquiry extends Component {
         <div className={Style.wrapper}>
           {/* Form Container */}
           <Container className={Style.formContainer}>
+            <h5 className={Style.ownerInfoHeaderTag}>Owner Information:</h5>
             <Form>
               <br />
               <Form.Row className={Style.ownerInfoFormRow}>

@@ -3,12 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-// Form Control
 import Form from "react-bootstrap/Form";
-// import FormControl from "react-bootstrap/FormControl";
-// import FormCheck from "react-bootstrap/FormCheck";
-// import FormFile from "react-bootstrap/FormFile";
-// Form Control
 import Style from "./Inquiry.module.css";
 
 class Inquiry extends Component {
@@ -38,20 +33,8 @@ class Inquiry extends Component {
     additionalComments: "",
   };
 
-  //
-  componentDidMount() {
-    // console.log("DidMount, ownerFirstName: ", this.state.ownerFirstName);
-    // console.log("DidMount, ownerLastName: ", this.state.ownerLastName);
-    // console.log("DidMount,Comments: ", this.state.additionalComments);
-    // console.log("DidMount, petType: ", this.state.petType);
-  }
-  componentDidUpdate() {
-    // console.log("DidUpdate, ownerFirstName: ", this.state.ownerFirstName);
-    // console.log("DidUpdate, ownerLastName: ", this.state.ownerLastName);
-    // console.log("DidUpdate,Comments: ", this.state.additionalComments);
-    // console.log("DidUpdate, petType: ", this.state.petType);
-  }
-  //
+  componentDidMount() {}
+  componentDidUpdate() {}
 
   handleInputChange = (e) => {
     const { name, value } = e.target;

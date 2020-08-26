@@ -76,7 +76,6 @@ class App extends Component {
             </Container>
           </div>
           {/* HEADER */}
-
           {/* MAIN CONTENT */}
           {/* VIDEO WRAPPER */}
           <div className="mainContentWrapper">

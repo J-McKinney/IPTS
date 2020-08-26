@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -65,7 +66,9 @@ class Landing extends Component {
                     </div>
                     <div id={Style.headerMVCContactInfo} className="col-md-3">
                       <h5>
-                        <a href="/">INQUIRY</a>
+                        <Link to="/Inquiry">
+                          <a href="/">INQUIRY</a>
+                        </Link>
                       </h5>
                     </div>
                     <div id={Style.headerMVCFAQ} className="col-md-1">
@@ -276,7 +279,9 @@ class Landing extends Component {
                 </div>
                 <div id={Style.footerMVCInquiryTag} className="col-md-2">
                   <h5>
-                    <a href="/">INQUIRY</a>
+                    <Link to="/Inquiry">
+                      <a href="/">INQUIRY</a>
+                    </Link>
                   </h5>
                 </div>
                 <div id={Style.footerMVCFAQTag} className="col-md-1">
